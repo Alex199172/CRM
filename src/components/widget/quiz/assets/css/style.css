@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(../img/header.avif);
+}
+
+.dot {
+  background-color: #fed55a;
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.btn {
+    padding-top: 17px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 50px;
+    background-color: #fed55a;
+    text-shadow: #ffb800;
+    box-shadow: #2f2b32;
+}
+
+.btn:hover {
+    background-color: #2f2b32;
+    text-shadow: #ffb800;
+    box-shadow: #2f2b32;
+}
+
+.btn:hover a {
+    color: #fed55a;
+    text-shadow: #ffb800;
+    box-shadow: #2f2b32;
+    transition: 1s;
+}
+
+.text__logo {
+  line-height: 28px;
+}
+
+.line {
+  border-width: 2px;
+}
+
+.content {
+  margin-top: 128px;
+}
+
+.advantages {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 960px) {
+  .content {
+    margin-top: 50px
+  }
+
+  .advantages {
+    position: static !important;
+    max-width: 280px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .advantages__item {
+    margin-bottom: 15px !important;
+  }
+}
